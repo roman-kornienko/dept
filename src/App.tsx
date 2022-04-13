@@ -1,5 +1,13 @@
+import Cases from "./features/Cases/Cases";
+import Header from "./Components/Header/";
+
 function App() {
-  return <div>Here is an App</div>;
+  return (
+    <div>
+      <Header />
+      <Cases />
+    </div>
+  );
 }
 
 export default App;
