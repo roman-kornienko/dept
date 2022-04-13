@@ -1,12 +1,19 @@
 import styled, { css } from "styled-components";
 import { black, blue, white, gray4 } from "../../colors";
 
+const StyledSecondary = css`
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  color: ${blue};
+  font-weight: 600;
+`;
+
 interface IStyledPrimary {
   blueButton?: boolean;
 }
 const StyledPrimary = css<IStyledPrimary>`
   padding: 10px 25px;
-  text-transform: uppercase;
   transition: background-color 0.3s;
 
   background-color: ${black};
@@ -30,6 +37,8 @@ const typeSwitcher = (buttonType: buttonTypes) => {
   switch (buttonType) {
     case "primary":
       return StyledPrimary;
+    case "secondary":
+      return StyledSecondary;
   }
 };
 
@@ -41,6 +50,7 @@ interface IStyledButton {
 export const StyledButton = styled.button<IStyledButton>`
   border: 0;
   cursor: pointer;
+  text-transform: uppercase;
 
   ${({ buttonType }) => typeSwitcher(buttonType)};
 `;

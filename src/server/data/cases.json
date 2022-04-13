@@ -1,9 +1,146 @@
 [
   {
+    "id": 1,
+    "image": "/images/bolcom.png",
+    "main": false,
+    "title": "A summer island in the Netherlands",
+    "industry": "Bol.com",
+    "category": ""
+  },
+  {
+    "id": 2,
+    "image": "/images/kempen.png",
+    "main": false,
+    "title": "Not some average banking website",
+    "industry": "Kempen",
+    "category": ""
+  },
+  {
+    "id": 3,
+    "image": "/images/philips.png",
+    "main": false,
+    "title": "Beautiful design meets innovative technology",
+    "industry": "Philips",
+    "category": ""
+  },
+  {
+    "id": 4,
+    "image": "/images/gemeentemuseum.png",
+    "main": false,
+    "title": "A 100 years of Mondriaan & De Stijl",
+    "industry": "Gemeentemuseum",
+    "category": ""
+  },
+  {
+    "id": 5,
     "image": "/images/florensis.png",
     "main": true,
     "title": "Rethinking the entire online ecosystem",
     "industry": "Florensis",
+    "category": ""
+  },
+  {
+    "id": 6,
+    "image": null,
+    "main": false,
+    "title": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+    "industry": "Microsoft",
+    "category": ""
+  },
+  {
+    "id": 7,
+    "image": null,
+    "main": false,
+    "title": "Integrating existing content into O’Neill’s new e-commerce platform",
+    "industry": "O’NEILL",
+    "category": ""
+  },
+  {
+    "id": 8,
+    "image": "/images/lightning.png",
+    "main": false,
+    "title": "Delivering clarity on a global scale",
+    "industry": "Be Lighting",
+    "category": ""
+  },
+  {
+    "id": 9,
+    "image": "/images/tui.png",
+    "main": false,
+    "title": "Swipe to find your next holiday destination",
+    "industry": "Tui",
+    "category": ""
+  },
+  {
+    "id": 10,
+    "image": "",
+    "main": false,
+    "title": "Enhancing customer experience for personalised holiday planning using real time data",
+    "industry": "BUTLINS",
+    "category": ""
+  },
+  {
+    "id": 11,
+    "image": "",
+    "main": false,
+    "title": "Predicting booking behavior for holidays with smart data, voice search and machine learning",
+    "industry": "VACANSESELECT",
+    "category": ""
+  },
+  {
+    "id": 12,
+    "image": "/images/florensis.png",
+    "main": false,
+    "title": "Rethinking the entire online ecosystem",
+    "industry": "Florensis",
+    "category": ""
+  },
+  {
+    "id": 13,
+    "image": "/images/chocomel.png",
+    "main": false,
+    "title": "A campaign for the limited edition letter packs",
+    "industry": "Chocomel",
+    "category": ""
+  },
+  {
+    "id": 14,
+    "image": "/images/jbl.png",
+    "main": false,
+    "title": "Live like a champion with Jerome Booteng",
+    "industry": "JBL",
+    "category": ""
+  },
+  {
+    "id": 15,
+    "image": "/images/zalando.png",
+    "main": false,
+    "title": "Innovative SEO and content strategy for Zalando",
+    "industry": "Zalando",
+    "category": ""
+  },
+  {
+    "id": 16,
+    "image": "/images/koninklijke-bibliotheek.png",
+    "main": false,
+    "title": "The search for the most influential book ever",
+    "industry": "Koninklijke Bibliotheek",
+    "category": ""
+  },
+  {
+    "id": 17,
+    "image": "/images/liberty-global.png",
+    "main": false,
+    "title": "Delivering complex commerce",
+    "industry": "Liberty Global",
+    "category": ""
+  },
+  {
+    "id": 18,
+    "image": "/images/arla.png",
+    "main": false,
+    "title": "Swipe to find your next holiday destination",
+    "industry": "Arla",
     "category": ""
   }
 ]

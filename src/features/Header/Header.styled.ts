@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { black, gray1, white } from "../../colors";
 import { StyledTextBody } from "../../Typography";
-import { StyledButton } from "../Button/Button.styled";
+import { StyledButton } from "../../components/Button/Button.styled";
 import { maxScreensSizesPx } from "../../constants";
 
 export const StyledHeader = styled.div`
@@ -84,10 +84,9 @@ export const StyledHeaderButton = styled(StyledButton)`
 
 export const StyledHeaderText = styled.div`
   position: absolute;
-  font-size: 12rem;
+  font-size: 15vw;
   top: 20%;
   left: 15%;
-  max-width: 350px;
   text-transform: uppercase;
   overflow-wrap: break-word;
 `;

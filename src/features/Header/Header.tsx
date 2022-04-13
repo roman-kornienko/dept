@@ -52,7 +52,11 @@ const Header = () => {
               </StyledHeaderButton>
             </StyledHeaderButtonInner>
           </StyledHeaderButtonWrapper>
-          <StyledHeaderText>Work</StyledHeaderText>
+          <StyledHeaderText>
+            Wo
+            <br />
+            rk
+          </StyledHeaderText>
         </StyledHeaderCase>
       )}
     </StyledHeader>

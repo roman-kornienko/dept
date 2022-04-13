@@ -30,7 +30,7 @@ const HamburgerMenu: FC<HamburgerMenuProps> = ({ open, toggle }) => {
 
   return (
     <StyledHamburgerMenu>
-      <StyledTextBody>Menu</StyledTextBody>
+      <StyledTextBody uppercase>Menu</StyledTextBody>
       <StyledButton onClick={handleClick}>
         <StyledMenuLine
           $menuIsOpened={open}
