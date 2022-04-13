@@ -1,12 +1,11 @@
-import Cases from "./features/Cases/Cases";
-import Header from "./features/Header/";
+import { Route, Routes } from "react-router-dom";
+import Main from "./features/Main";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Cases />
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />} />
+    </Routes>
   );
 }
 

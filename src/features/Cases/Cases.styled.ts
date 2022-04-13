@@ -3,15 +3,21 @@ import { gray3, blue } from "../../colors";
 import { StyledButton } from "../../components/Button/Button.styled";
 import { maxScreensSizesPx } from "../../constants";
 
-export const StyledCasesWrapper = styled.div``;
-
-export const StyledFiltersWrapper = styled.div``;
-
-export const StyledCases = styled.div`
+export const StyledCasesWrapper = styled.div`
   max-width: 1340px;
   width: 100%;
   margin: 0 auto;
 `;
+
+export const StyledFiltersWrapper = styled.div`
+  width: 90%;
+  margin: 35px auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+`;
+
+export const StyledCases = styled.div``;
 
 export const StyledCasesInner = styled.div`
   display: flex;

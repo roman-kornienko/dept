@@ -10,3 +10,8 @@ export interface ICase {
 export interface ICaseWithLinkedItems extends ICase {
   linkedItem?: ICase;
 }
+
+export interface ISelectOption {
+  label: string;
+  value: string | null;
+}

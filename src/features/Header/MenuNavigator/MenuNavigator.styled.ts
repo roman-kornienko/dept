@@ -24,6 +24,7 @@ export const StyledContentWrapper = styled.div`
   max-width: 1340px;
   margin: 0 auto;
   width: 100%;
+  background-color: ${black};
 `;
 
 export const StyledAnimatedList = styled(animated.ul)`

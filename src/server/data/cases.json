@@ -5,7 +5,7 @@
     "main": false,
     "title": "A summer island in the Netherlands",
     "industry": "Bol.com",
-    "category": ""
+    "category": "interactive"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "main": false,
     "title": "Not some average banking website",
     "industry": "Kempen",
-    "category": ""
+    "category": "banking"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "main": false,
     "title": "Beautiful design meets innovative technology",
     "industry": "Philips",
-    "category": ""
+    "category": "design"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "main": false,
     "title": "A 100 years of Mondriaan & De Stijl",
     "industry": "Gemeentemuseum",
-    "category": ""
+    "category": "design"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "main": true,
     "title": "Rethinking the entire online ecosystem",
     "industry": "Florensis",
-    "category": ""
+    "category": "digital"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "main": false,
     "title": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
     "industry": "Microsoft",
-    "category": ""
+    "category": "digital"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "main": false,
     "title": "Integrating existing content into O’Neill’s new e-commerce platform",
     "industry": "O’NEILL",
-    "category": ""
+    "category": "digital"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "main": false,
     "title": "Delivering clarity on a global scale",
     "industry": "Be Lighting",
-    "category": ""
+    "category": "design"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "main": false,
     "title": "Swipe to find your next holiday destination",
     "industry": "Tui",
-    "category": ""
+    "category": "digital"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "main": false,
     "title": "Enhancing customer experience for personalised holiday planning using real time data",
     "industry": "BUTLINS",
-    "category": ""
+    "category": "interactive"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "main": false,
     "title": "Predicting booking behavior for holidays with smart data, voice search and machine learning",
     "industry": "VACANSESELECT",
-    "category": ""
+    "category": "interactive"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "main": false,
     "title": "Rethinking the entire online ecosystem",
     "industry": "Florensis",
-    "category": ""
+    "category": "digital"
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "main": false,
     "title": "A campaign for the limited edition letter packs",
     "industry": "Chocomel",
-    "category": ""
+    "category": "interactive"
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "main": false,
     "title": "Live like a champion with Jerome Booteng",
     "industry": "JBL",
-    "category": ""
+    "category": "digital"
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "main": false,
     "title": "Innovative SEO and content strategy for Zalando",
     "industry": "Zalando",
-    "category": ""
+    "category": "digital"
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "main": false,
     "title": "The search for the most influential book ever",
     "industry": "Koninklijke Bibliotheek",
-    "category": ""
+    "category": "interactive"
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "main": false,
     "title": "Delivering complex commerce",
     "industry": "Liberty Global",
-    "category": ""
+    "category": "banking"
   },
   {
     "id": 18,
@@ -141,6 +141,6 @@
     "main": false,
     "title": "Swipe to find your next holiday destination",
     "industry": "Arla",
-    "category": ""
+    "category": "digital"
   }
 ]
