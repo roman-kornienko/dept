@@ -3,6 +3,10 @@ import { gray3, blue } from "../../colors";
 import { StyledButton } from "../../components/Button/Button.styled";
 import { maxScreensSizesPx } from "../../constants";
 
+export const StyledCasesWrapper = styled.div``;
+
+export const StyledFiltersWrapper = styled.div``;
+
 export const StyledCases = styled.div`
   max-width: 1340px;
   width: 100%;

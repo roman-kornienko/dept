@@ -73,7 +73,8 @@ export const StyledHeaderButtonInner = styled.div`
 
 export const StyledHeaderCaseImage = styled.img`
   width: 100%;
-  object-fit: contain;
+  max-height: 100vh;
+  object-fit: cover;
 `;
 
 export const StyledHeaderButton = styled(StyledButton)`

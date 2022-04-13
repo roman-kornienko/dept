@@ -1,6 +1,11 @@
 import { caseAPI } from "../../services/CaseService";
 import { ICase } from "../../models/ICase";
-import { StyledCases, StyledCasesInner } from "./Cases.styled";
+import {
+  StyledCasesWrapper,
+  StyledCases,
+  StyledCasesInner,
+  StyledFiltersWrapper,
+} from "./Cases.styled";
 import { uniteCasesWithoutImage } from "./utils";
 import CaseCard from "./CaseCard";
 
@@ -15,13 +20,16 @@ const Cases = () => {
   });
 
   return (
-    <StyledCases>
-      <StyledCasesInner>
-        {casesData?.map((caseItem) => {
-          return <CaseCard key={caseItem.id} caseItem={caseItem} />;
-        })}
-      </StyledCasesInner>
-    </StyledCases>
+    <StyledCasesWrapper>
+      <StyledFiltersWrapper />
+      <StyledCases>
+        <StyledCasesInner>
+          {casesData?.map((caseItem) => {
+            return <CaseCard key={caseItem.id} caseItem={caseItem} />;
+          })}
+        </StyledCasesInner>
+      </StyledCases>
+    </StyledCasesWrapper>
   );
 };
 
