@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/static/js/main.a27afd3c.js",
+    "static/media/Teko-Light.ttf": "/static/media/Teko-Light.c869f8b6991660ce0a3c.ttf",
+    "static/media/icon-dept.svg": "/static/media/icon-dept.43c929d9e6bd6273b6b9c002d281a42f.svg",
+    "index.html": "/index.html",
+    "static/media/icon-dropdown.svg": "/static/media/icon-dropdown.00cb1e54ff8414607bd9510d66bf0bca.svg",
+    "main.a27afd3c.js.map": "/static/js/main.a27afd3c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a27afd3c.js"
+  ]
+}
