@@ -9,7 +9,7 @@ some requirements:
 * form
 * ...
 
-to run the application you just need to clone the repository and type "npm start"
+to run the application you just need to clone the repository and type "npm install" and then "npm start" in console
 
 Application screenshots:
 
