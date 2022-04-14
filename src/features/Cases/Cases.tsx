@@ -6,11 +6,12 @@ import {
   StyledCasesInner,
   StyledFiltersWrapper,
 } from "./Cases.styled";
-import { getUniqueValuesByField, uniteCasesWithoutImage } from "./utils";
 import CaseCard from "./CaseCard";
 import Select from "../../components/Select/Select";
 import { useLocation, useNavigate } from "react-router-dom";
 import CaseQuote from "./CaseQuote";
+import { uniteCasesWithoutImage } from "./utils/uniteCasesWithoutImage";
+import { getUniqueValuesByField } from "./utils/getUniqueValuesByField";
 
 interface ICases {
   casesData: ICase[] | null;

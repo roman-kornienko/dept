@@ -1,4 +1,4 @@
-import { ICase, ICaseWithLinkedItems, ISelectOption } from "../../models/ICase";
+import { ICase, ICaseWithLinkedItems } from "../../../models/ICase";
 
 interface ISearchParams {
   industry: string | null;
@@ -50,40 +50,4 @@ export const uniteCasesWithoutImage = (
       countCasesWithoutImageConsecutive = 0;
       return newAcc;
     }, []);
-};
-
-export const getUniqueValuesByField = (
-  data: Array<ICase> | undefined,
-  field: "category" | "industry"
-): Array<ISelectOption> | null => {
-  if (!data) {
-    return null;
-  }
-
-  return data.reduce(
-    (acc: ISelectOption[], dataItem: ICase) => {
-      const dataItemValue = dataItem?.[field];
-
-      if (
-        !dataItemValue ||
-        acc.find((accItem) => accItem.value === dataItemValue)
-      ) {
-        return acc;
-      }
-
-      return [
-        ...acc,
-        {
-          value: dataItemValue,
-          label: dataItemValue,
-        },
-      ];
-    },
-    [
-      {
-        label: "all",
-        value: null,
-      },
-    ]
-  );
 };
