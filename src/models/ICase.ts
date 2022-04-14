@@ -5,6 +5,7 @@ export interface ICase {
   title?: string;
   industry?: string;
   category?: string;
+  quote?: string;
 }
 
 export interface ICaseWithLinkedItems extends ICase {

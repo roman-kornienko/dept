@@ -133,3 +133,27 @@ export const StyledCaseCardImage = styled.img`
   max-height: 500px;
   object-fit: cover;
 `;
+
+export const StyledCaseQuote = styled.div`
+  width: 100%;
+  padding: 60px 0;
+  border-top: 1px solid ${gray3};
+
+  @media (max-width: ${maxScreensSizesPx.mobile}) {
+    padding: 30px 0;
+  }
+`;
+
+export const StyledCaseQuoteInner = styled.div`
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.5vw;
+
+  @media (max-width: ${maxScreensSizesPx.tablet}) {
+    font-size: 2.2vw;
+  }
+
+  @media (max-width: ${maxScreensSizesPx.mobile}) {
+    font-size: 2.8vw;
+  }
+`;

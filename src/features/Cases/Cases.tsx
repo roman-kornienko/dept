@@ -10,6 +10,7 @@ import { getUniqueValuesByField, uniteCasesWithoutImage } from "./utils";
 import CaseCard from "./CaseCard";
 import Select from "../../components/Select/Select";
 import { useLocation, useNavigate } from "react-router-dom";
+import CaseQuote from "./CaseQuote";
 
 interface ICases {
   casesData: ICase[] | null;
@@ -77,7 +78,14 @@ const Cases = () => {
       <StyledCases>
         <StyledCasesInner>
           {casesData?.map((caseItem) => {
-            return <CaseCard key={caseItem.id} caseItem={caseItem} />;
+            return caseItem.quote ? (
+              <>
+                <CaseQuote text={caseItem.quote} />
+                <div />
+              </>
+            ) : (
+              <CaseCard key={caseItem.id} caseItem={caseItem} />
+            );
           })}
         </StyledCasesInner>
       </StyledCases>

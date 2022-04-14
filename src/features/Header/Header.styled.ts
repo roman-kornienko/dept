@@ -81,6 +81,11 @@ export const StyledHeaderButton = styled(StyledButton)`
   position: absolute;
   bottom: 50px;
   right: 0;
+
+  @media (max-width: ${maxScreensSizesPx.mobile}) {
+    position: initial;
+    width: 100%;
+  }
 `;
 
 export const StyledHeaderText = styled.div`
@@ -90,4 +95,9 @@ export const StyledHeaderText = styled.div`
   left: 15%;
   text-transform: uppercase;
   overflow-wrap: break-word;
+
+  @media (max-width: ${maxScreensSizesPx.mobile}) {
+    font-size: 20vw;
+    top: 24%;
+  }
 `;
