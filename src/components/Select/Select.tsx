@@ -1,6 +1,6 @@
 import { SingleSelect } from "react-select-material-ui";
 import { FC } from "react";
-import { StyledSelectWrapper } from "./Select.styeled";
+import { StyledSelectWrapper } from "./Select.styled";
 import { ISelectOption } from "../../models/ICase";
 
 interface SelectProps {
