@@ -9,8 +9,6 @@ import {
 import { LOGOS_PATHS } from "./constants";
 
 const Clients = () => {
-  console.log("LOGOS_PATHS => ", LOGOS_PATHS);
-
   return (
     <StyledClients>
       <StyledClientTitle>Clients</StyledClientTitle>

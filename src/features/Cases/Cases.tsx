@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { caseAPI } from "../../services/CaseService";
 import { ICase, ISelectOption } from "../../models/ICase";
 import {
@@ -80,10 +81,10 @@ const Cases = () => {
         <StyledCasesInner>
           {casesData?.map((caseItem) => {
             return caseItem.quote ? (
-              <>
+              <Fragment key={caseItem.id}>
                 <CaseQuote text={caseItem.quote} />
                 <div />
-              </>
+              </Fragment>
             ) : (
               <CaseCard key={caseItem.id} caseItem={caseItem} />
             );
